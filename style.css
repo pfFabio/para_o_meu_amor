@@ -549,6 +549,17 @@ footer {
     width: 100%;
 }
 
+.aniversario-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.aniversario-grid .masonry-item {
+    margin-bottom: 0;
+}
+
 .masonry-item {
     margin-bottom: 1.5rem;
     break-inside: avoid;

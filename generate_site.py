@@ -143,6 +143,10 @@ for folder, data in sections.items():
             for img in images:
                 grid_html += f'<div class="masonry-item"><img src="viagem de maio-2026/{folder}/{img}" alt="{data["title"]}" loading="lazy"></div>\n'
             
+            layout_class = "masonry-grid"
+            if folder == "aniversário":
+                layout_class = "aniversario-grid"
+
             event_html += f'''
         <section class="gallery-section event-section">
             <div class="container">
@@ -151,7 +155,7 @@ for folder, data in sections.items():
                     <p>{data["desc"]}</p>
                     <div class="separator"><i class="fa-solid fa-camera"></i></div>
                 </div>
-                <div class="masonry-grid reveal">
+                <div class="{layout_class} reveal">
                     {grid_html}
                 </div>
             </div>
