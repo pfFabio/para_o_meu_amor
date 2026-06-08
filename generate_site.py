@@ -127,7 +127,7 @@ def is_image(filename):
     return filename.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp'))
 
 casal_images = [f for f in os.listdir(base_dir) if os.path.isfile(os.path.join(base_dir, f)) and is_image(f)]
-hero_image = casal_images[0] if casal_images else ""
+hero_image = "1780942377195.jpg"
 
 casal_html = ""
 for img in casal_images:
