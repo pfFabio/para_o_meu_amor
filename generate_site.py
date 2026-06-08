@@ -6,7 +6,7 @@ base_dir = r"c:\Users\Usuario\Documents\viagem 2026\viagem de maio-2026"
 sections = {
     "aniversário": {"title": "Meu Aniversário", "desc": "Comemorar meu aniversário ao seu lado tornou esse dia um dos mais especiais e felizes da minha vida."},
     "darwin": {"title": "Caminho de Darwin", "desc": "Nossa subida histórica! O esforço valeu a pena só para ter essa vista incrível e sua companhia maravilhosa."},
-    "teleférico": {"title": "Morro do Telégrafo", "desc": "A trilha no Morro do Telégrafo foi mais uma aventura linda nossa. Cada passo juntos fortalece nossa conexão."},
+    "telégrafo": {"title": "Morro do Telégrafo", "desc": "A trilha no Morro do Telégrafo foi mais uma aventura linda nossa. Cada passo juntos fortalece nossa conexão."},
     "yoga": {"title": "Aula de Yoga", "desc": "Nossa aula de yoga trouxe um momento de paz e equilíbrio, nos conectando ainda mais."},
     "di_italia": {"title": "Restaurante Di Italia", "desc": "Nossa romântica ida ao Di Italia... Momentos deliciosos regados a boas conversas e a melhor companhia."},
     "recanto": {"title": "Praia do Recanto", "desc": "O restaurante na praia fechou nossos passeios com chave de ouro. A brisa do mar e o seu sorriso!"},
